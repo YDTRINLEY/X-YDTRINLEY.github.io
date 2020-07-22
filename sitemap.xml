@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ydtrinley.github.com/shuo/index.html</loc>
+    
+    <lastmod>2020-07-22T22:11:06.572Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ydtrinley.github.com/about/index.html</loc>
+    
+    <lastmod>2020-07-22T21:26:35.025Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://ydtrinley.github.com/archives/AboutBlogDesign.html</loc>
     
     <lastmod>2020-07-22T15:25:24.772Z</lastmod>
@@ -26,13 +40,6 @@
     <loc>https://ydtrinley.github.com/archives/AplayerPlugins.html</loc>
     
     <lastmod>2020-07-21T12:34:34.550Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ydtrinley.github.com/about/index.html</loc>
-    
-    <lastmod>2020-07-21T12:01:26.826Z</lastmod>
     
   </url>
   
