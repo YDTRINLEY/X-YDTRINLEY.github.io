@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ydtrinley.github.com/schedule/index.html</loc>
+    
+    <lastmod>2020-07-23T11:52:08.179Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://ydtrinley.github.com/shuo/index.html</loc>
     
     <lastmod>2020-07-22T22:22:55.672Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://ydtrinley.github.com/friends/index.html</loc>
     
     <lastmod>2020-07-21T11:48:09.523Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://ydtrinley.github.com/schedule/index.html</loc>
-    
-    <lastmod>2020-07-20T23:32:33.570Z</lastmod>
     
   </url>
   

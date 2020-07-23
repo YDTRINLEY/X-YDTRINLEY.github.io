@@ -25,7 +25,7 @@
     
     <summary type="html">
     
-      &lt;!-- build time:Thu Jul 23 2020 07:21:46 GMT+0800 (中国标准时间) --&gt;&lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;&lt;strong&gt;前言：&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;网上很多hexo-next教程都是老版本，自己一开始就用了新版Hexo-Next，也不是从老版本升级的，一些目录结构和老版不同，框架文件也老版本少了一些(+_+)……第一次折腾自己搭建博客，结和网上大佬们的教程把没涉及的或者新版不一样的地方做些补充，算是备忘录了。先看搭建这次博客的版本：
+      &lt;!-- build time:Thu Jul 23 2020 19:54:33 GMT+0800 (中国标准时间) --&gt;&lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;&lt;strong&gt;前言：&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;网上很多hexo-next教程都是老版本，自己一开始就用了新版Hexo-Next，也不是从老版本升级的，一些目录结构和老版不同，框架文件也老版本少了一些(+_+)……第一次折腾自己搭建博客，结和网上大佬们的教程把没涉及的或者新版不一样的地方做些补充，算是备忘录了。先看搭建这次博客的版本：
     
     </summary>
     
@@ -50,7 +50,7 @@
     
     <summary type="html">
     
-      &lt;!-- build time:Thu Jul 23 2020 07:21:46 GMT+0800 (中国标准时间) --&gt;&lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h3&gt;&lt;p&gt;主要是更新了Next主题到最新版本7.8之后，网上找到的把播放器放在侧边栏的方法都没办法实现，因为新版的文件和目录有了变化。故作此记录。
+      &lt;!-- build time:Thu Jul 23 2020 19:54:33 GMT+0800 (中国标准时间) --&gt;&lt;h3 id=&quot;前言：&quot;&gt;&lt;a href=&quot;#前言：&quot; class=&quot;headerlink&quot; title=&quot;前言：&quot;&gt;&lt;/a&gt;前言：&lt;/h3&gt;&lt;p&gt;主要是更新了Next主题到最新版本7.8之后，网上找到的把播放器放在侧边栏的方法都没办法实现，因为新版的文件和目录有了变化。故作此记录。
     
     </summary>
     
@@ -102,7 +102,7 @@
     
     <summary type="html">
     
-      &lt;!-- build time:Thu Jul 23 2020 07:21:46 GMT+0800 (中国标准时间) --&gt;&lt;h4 id=&quot;小白Hexo-Next-Github建站故障排雷汇总&quot;&gt;&lt;a href=&quot;#小白Hexo-Next-Github建站故障排雷汇总&quot; class=&quot;headerlink&quot; title=&quot;小白Hexo/Next-Github建站故障排雷汇总&quot;&gt;&lt;/a&gt;&lt;strong&gt;小白Hexo/Next-Github建站故障排雷汇总&lt;/strong&gt;&lt;/h4&gt;&lt;ol&gt;&lt;li&gt;&lt;h5 id=&quot;问题1：git-clone连接网络失败没办法下载资源&quot;&gt;&lt;a href=&quot;#问题1：git-clone连接网络失败没办法下载资源&quot; class=&quot;headerlink&quot; title=&quot;问题1：git clone连接网络失败没办法下载资源&quot;&gt;&lt;/a&gt;问题1：git clone连接网络失败没办法下载资源&lt;/h5&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;fatal: unable to access &lt;span class=&quot;string&quot;&gt;&#39;https://github.com/xxxx/xxxx.git&#39;&lt;/span&gt;: Failed to connect to 127.0.0.1 port 1008: Connection refused&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;原因：&lt;/strong&gt;参照别人的教程改了代理设置，想要加速git clone的加载速度，结果改坏了。||而且即使用管理员cmd命令删除代理的代码（&lt;code&gt;git config --global --unset http.proxy&lt;/code&gt; 等 ）都没有反应。
+      &lt;!-- build time:Thu Jul 23 2020 19:54:33 GMT+0800 (中国标准时间) --&gt;&lt;h4 id=&quot;小白Hexo-Next-Github建站故障排雷汇总&quot;&gt;&lt;a href=&quot;#小白Hexo-Next-Github建站故障排雷汇总&quot; class=&quot;headerlink&quot; title=&quot;小白Hexo/Next-Github建站故障排雷汇总&quot;&gt;&lt;/a&gt;&lt;strong&gt;小白Hexo/Next-Github建站故障排雷汇总&lt;/strong&gt;&lt;/h4&gt;&lt;ol&gt;&lt;li&gt;&lt;h5 id=&quot;问题1：git-clone连接网络失败没办法下载资源&quot;&gt;&lt;a href=&quot;#问题1：git-clone连接网络失败没办法下载资源&quot; class=&quot;headerlink&quot; title=&quot;问题1：git clone连接网络失败没办法下载资源&quot;&gt;&lt;/a&gt;问题1：git clone连接网络失败没办法下载资源&lt;/h5&gt;&lt;figure class=&quot;highlight sh&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;fatal: unable to access &lt;span class=&quot;string&quot;&gt;&#39;https://github.com/xxxx/xxxx.git&#39;&lt;/span&gt;: Failed to connect to 127.0.0.1 port 1008: Connection refused&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;原因：&lt;/strong&gt;参照别人的教程改了代理设置，想要加速git clone的加载速度，结果改坏了。||而且即使用管理员cmd命令删除代理的代码（&lt;code&gt;git config --global --unset http.proxy&lt;/code&gt; 等 ）都没有反应。
     
     </summary>
     
